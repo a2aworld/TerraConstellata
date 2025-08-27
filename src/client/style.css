@@ -1,0 +1,33 @@
+/* Reset default styles for a clean slate */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+  font-family: sans-serif;
+}
+
+/* Dark theme background */
+body {
+  background-color: #1a1a1b; /* Reddit's dark mode background color */
+  color: #d7dadc;
+}
+
+/* The main container for our map */
+#app-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* The iframe itself */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove the default iframe border */
+}
